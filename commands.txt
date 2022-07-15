@@ -1,0 +1,89 @@
+  499  nano ~/.zshrc
+  500  python --version
+  501  python3 --version
+  502  python3 -m venv projectflask
+  503  source projectflask/bin/activate
+  504  history
+  505  pip3 install flask
+  506  python3 1.py
+  507  python3 1.py
+  508  python3 1.py
+  509  pip3 install gunicorn
+  510  gunicorn --reload 1
+
+
+  cd projectflask/
+  505  source bin/activate
+  506  cd ..
+  507  pwd
+  508  gunicorn --reload 1
+  509  gunicorn --reload app
+  510  gunicorn --reload app
+  511  git clone https://github.com/NotoriousArnav/NewsSummarizer
+  512  cd ls
+  513  cd ns
+  514  python3 wsgi.py
+  515  pip3 install -r requirements.txt 
+  516  pip3 install -r requirements.txt 
+  517  pip3 install markdown
+  518  python3 wsgi.py
+  519  brew install jq
+  520  python3
+  521  clear
+  522  python3
+
+#command to get history of shell --
+import readline; print('\n'.join([str(readline.get_history_item(i + 1)) for i in range(readline.get_current_history_length())]))
+
+
+import requests
+response = requests.get('http://127.0.0.1:8080/api/v1/available_articles')
+clear
+exit()
+response = requests.get('http://127.0.0.1:8080/api/v1/available_articles')
+import requests
+response = requests.get('http://127.0.0.1:8080/api/v1/available_articles')
+json_resp1 = respinsponse1.json()
+json_resp1 = response.json()
+def filter_news(term,lst):
+        if term.lower() in lst[0].lower():
+                return lst
+        else:
+                return False
+filter_news('cancer',json_resp1['articles'][0])
+filter_news('cancer',json_resp1['articles'][0][0])
+
+nano ~/.bashrc
+export PATH=$PATH/Applications/Postgres.app/Contents/Versions/14/bin/psql
+ ~/.bash_profile
+https://apple.stackexchange.com/questions/231401/why-dont-changes-in-the-bashrc-file-work-on-a-new-terminal-window
+YOU DONT NEED PATH thing, if use python3 -m pip instal ____
+
+echo $SHELL #to print activate SHELL
+chsh -s /bin/zsh #to change to zsh or bash
+
+inside shell- 
+import requests
+r = requests.get('https://www.google.com')
+type(r)
+press double tab example for class r , after "r." also request.
+use HELP(r) to get documentation
+
+'NODE' is a javascript shell node=backend js
+
+isisntance(a,A) returns boolean
+
+python config- xml ini
+
+termux - used in android to create new server
+commands - sshd ssh u0@192. -p
+
+(amazon)server - os(ubuntu)-  
+sudo apt(aptitude, package manager for linux) install obs-studio
+apt is only for ubuntu,debian
+choclaty,brew, for windows.
+choclaty , brew for mac.
+
+whoami (gives username)
+whoami
+find / ~type f|grep '.env'
