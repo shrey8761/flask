@@ -65,7 +65,7 @@ chsh -s /bin/zsh #to change to zsh or bash
 inside shell- 
 import requests
 r = requests.get('https://www.google.com')
-type(r)
+type(r), dir(sha256_crypt)
 press double tab example for class r , after "r." also request.
 use HELP(r) to get documentation
 
@@ -87,3 +87,83 @@ choclaty , brew for mac.
 whoami (gives username)
 whoami
 find / ~type f|grep '.env'
+
+git log -p --reverse
+git config --global user.email 
+
+git diff --color-words
+git diff --highlight
+diff -git
+
+env only as command
+connect to remote server via ssh(port no. = 22)
+web application/website us need apache(port 80) nginx(443) or secure apache nginx
+connect to remote database(psql,mogodb) on remote machines (valdiate by telnet(ssh alternative))
+
+ping www.gmai.com => i.p 
+telnet www.gmail.com 80 
+
+windows strated using linux, wsl shell , dir
+
+instead of buying many computers, they buy big ccomputer(or buy from cloud), config- 256gb ram, 128 cores, ssd 64tb, 1000 dockers ,then they giver virtual computer, then came docker
+docker helps fast
+
+conda init <SHELL_NAME>
+Conda activate base
+Conda deactivate
+Conda env list
+Conda create --name  ML-env	python=3.7
+Conda create --name  TDenv	python=3.9
+Conda create --name thydet python=3.9
+Conda env list
+Restart vs code
+Conda activate ML-env
+Conda install sklearn
+
+If this don't work
+Conda config --show channels
+To add new- 
+Conda config -add channels conda-forge
+Conda config --get channels (priority)
+
+Conda install google-api-python-client
+conda create --name <env_name> --file requirements.txt
+
+conda install --yes --file requirements.txt
+
+Conda env create --file requirements.txt  
+Conda env playlist
+
+conda install --yes --file requirements.txt
+
+conda install -n thydet  --yes --file requirements.txt
+
+conda config --append channels conda-forge
+
+Finally in vscode it run by dividing in to 10 then mute between 10 and jo rhe gee undo pip karDiya . 
+
+The M1 is an ARM processor, not an x86 processor
+M1 == arm64 == OSx_64
+64bits
+Old == x86_64
+
+ . mv ./.zshrc ./start_miniforge.sh (sh file ke saath khel rue hai , move sh and rename ho aha h, to start new use SOURCE ./start_miniforge.sh)
+
+3) Enter command "softwareupdate --install-rosetta"
+(Alternatively: /usr/sbin/softwareupdate --install-rosetta)
+4) Type 'a' and press enter
+
+
+to activate conda's base environment in your current shell session: (ye conda miniforge mein hai)(bash zsh)
+
+eval "$(/Users/shrey/miniforge3/bin/conda shell.bash hook)" 
+
+main interpretor path = /Library/Frameworks/Python.framework/Versions/3.9/lib/
+
+tdenv ka path  	/Users/shrey/opt/anaconda3/envs/TDenv/lib/
+
+#to see in notebook
+jupyter kernelspec list 
+#to add new kernel from venv
+python -m ipykernel install --user --name=ds39
+
